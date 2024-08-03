@@ -7,13 +7,19 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginformComponent } from './component/loginform/loginform.component';
 import { LoginPageComponent } from './container/login-page/login-page.component';
 import { RxjsLearningComponent } from './rxjs-learning/rxjs-learning.component';
+import { RxjsPrComponent } from './rxjs-pr/rxjs-pr.component';
+import { RxjsBasicComponent } from './rxjs-basic/rxjs-basic.component';
+import { NewObservableComponent } from './components/new-observable/new-observable.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginformComponent,
     LoginPageComponent,
-    RxjsLearningComponent
+    RxjsLearningComponent,
+    RxjsPrComponent,
+    RxjsBasicComponent,
+    NewObservableComponent
   ],
   imports: [
     BrowserModule,
